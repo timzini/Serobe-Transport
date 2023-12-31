@@ -48,7 +48,8 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #29bf90ac;
+    background-color: rgba(0, 0, 0, 0.56);
+    color: white;
 }
 
 .dropdown li {
@@ -65,7 +66,7 @@ ul li a:hover {
 .dropdown {
     display: block;
     width: 150px;
-    background: #29bf90ac;
+    background: rgba(0, 0, 0, 0.149);
     position: absolute;
     z-index: 999;
     display: none;
@@ -73,8 +74,9 @@ ul li a:hover {
     font-size: 11px;
 }
 
-.dropdown li a:hover {
-    background: #1f7775;
+a:hover .options::after {
+    background-color: rgba(0, 0, 0, 0.56);
+    color: white;
 }
 
 ul li:hover .dropdown {
@@ -91,9 +93,16 @@ ul li:hover .dropdown {
     font-size: 50px;
 }
 
+.h13 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
 /*/////////////////////  Contact us  ////////////////////////*/
 .hero-C {
-    background-image: linear-gradient(85deg, #659DBD, #1f77766c), url(images/busses.jpg);
+    background-image: linear-gradient(85deg, #659DBD, #1f7776aa), url(images/busses.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +111,7 @@ ul li:hover .dropdown {
 }
 
 .outs {
-    margin-left: 5px;
+    margin-left: 50px;
 }
 
 input,
