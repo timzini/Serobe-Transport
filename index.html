@@ -10,39 +10,44 @@
   <body>
     <section class="hero-1">
       <div class="navigation">
-        <nav>
+        <img id="SH-logo" src="images/png/logo-no-background.png" alt="" />
+        <nav id="menu" style="display: flex; justify-content: end">
           <ul class="nav-links">
-            |
             <li><a href="index.html">HOME</a></li>
-            |
             <li class="options">
-              <a href="">OUR SERVICES ></a>
-              <ul class="dropdown">
-                <li><a href="#">Long/Short distance charters</a></li>
-                <br />
-                <li>
-                  <a href="#">School,Sport,Church organised tour groups</a>
-                </li>
-                <br />
-                <li><a href="#">Group bookings</a></li>
-                <br />
-                <li><a href="#">Cross Border Tours & Transfers</a></li>
-                <br />
-                <li><a href="#">Airport Transfers</a></li>
-              </ul>
+              <select name="" id="">
+                <option style="display: none" value="">Distace Charters</option>
+                <option value="">Long</option>
+                <option value="">Short</option>
+              </select>
             </li>
-            |
-
             <li><a href="Contact.html">CONTACT US</a></li>
-            |
             <li><a href="about.html">ABOUT US</a></li>
-            |
           </ul>
         </nav>
+        <img
+          id="menuButton"
+          src="images/657905_hamburger_menu_move handle_order_round_icon.png"
+          onclick="toggleMenu()"
+          alt=""
+        />
       </div>
       <br /><br /><br /><br />
       <h1 class="h11">We provide</h1>
       <h1 class="h12">MINIBUS, SPRINTER BUS SOLUTIONS</h1>
     </section>
+    <section id="Services">
+      <h1>Our Service</h1>
+      <div class="Options">
+        <form action="#" method="post">
+          <select name="" id="">
+            <option style="display: none" value="">Distace Charters</option>
+            <option value="">Long</option>
+            <option value="">Short</option>
+          </select>
+        </form>
+      </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
