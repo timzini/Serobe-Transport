@@ -134,6 +134,9 @@ li select {
         width: 165px;
     }
 
+    li {
+        margin: 0px;
+    }
 
 }
 
