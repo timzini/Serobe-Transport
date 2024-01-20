@@ -7,10 +7,8 @@
     font-family: 'Poppins', monospace;
 }
 
-
-
 .hero-1 {
-    background-image: linear-gradient(85deg, rgba(0, 0, 0, 0.75), #659dbd85), url(images/busses2.jpg);
+    background-image: linear-gradient(85deg, rgba(151, 151, 151, 0.75), #75a3bda2), url(images/busses2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,8 +48,8 @@ ul li:hover {
 }
 
 .h13 {
-    font-size: 25px;
-    color: black;
+    font-size: 15px;
+    color: white;
     text-align: center;
     margin-top: 100px;
 }
@@ -139,6 +137,7 @@ nav ul li select {
 #Services {
     height: 100vh;
     background-color: rgb(218, 193, 95);
+
 }
 
 .Options {
@@ -157,9 +156,15 @@ nav ul li select {
     background-color: rgb(213, 174, 18);
 }
 
+.OS {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
 /*/////////////////////  Contact us  ////////////////////////*/
 .hero-C {
-    background-image: linear-gradient(85deg, #659DBD, #1f7776aa), url(images/busses.jpg);
+    background-image: linear-gradient(85deg, #659dbd9a, grey), url(images/busses.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -182,16 +187,22 @@ textarea {
     min-width: 250px;
 }
 
+textarea {
+    min-height: 100px;
+    resize: none;
+}
+
 ::placeholder {
     color: #ffffff8b;
 }
 
 .c-button {
-    background: transparent;
+    background: Teal;
     border: 1px solid black;
     border-radius: 3px;
     outline: none;
     padding: 10px 20px;
     margin-top: 2px;
     min-width: 250px;
+    width: 290px;
 }

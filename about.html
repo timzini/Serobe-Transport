@@ -10,18 +10,27 @@
   <body>
     <section class="hero-C">
       <div class="navigation">
-        <nav style="width: 100%; display: flex; justify-content: end">
-          <ul id="menuList" class="nav-links">
+        <img id="SH-logo" src="images/png/logo-no-background.png" alt="" />
+        <nav id="menu" style="display: flex; justify-content: end">
+          <ul class="nav-links">
             <li><a href="index.html">HOME</a></li>
-            <li class="options"><a href="">OUR SERVICES</a></li>
+            <li class="options">
+              <select name="" id="">
+                <option style="display: none" value="">OUR SERVICES</option>
+                <option value="">Distance Chaters</option>
+                <option value="">Organised Groups</option>
+                <option value="">Group Bookings</option>
+                <option value="">Airport Transfers</option>
+              </select>
+            </li>
             <li><a href="Contact.html">CONTACT US</a></li>
             <li><a href="about.html">ABOUT US</a></li>
           </ul>
         </nav>
         <img
-          id="menu"
-          src="images/1954536_bullet_disc_list_menu_options_icon.png"
-          onclick="togglemenu()"
+          id="menuButton"
+          src="images/657905_hamburger_menu_move handle_order_round_icon.png"
+          onclick="toggleMenu()"
           alt=""
         />
       </div>
