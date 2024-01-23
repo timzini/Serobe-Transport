@@ -50,15 +50,6 @@ nav ul li:hover {
     font-size: 70px;
 }
 
-.h13 {
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    margin-top: 100px;
-}
-
-
-
 .navigation {
     display: flex;
     width: 100%;
@@ -118,8 +109,8 @@ nav ul li select {
         overflow-y: hidden;
         top: 45px;
         right: 0;
-        height: 175px;
-        width: 225px;
+        height: 200px;
+        width: 165px;
         background-color: grey;
         border-radius: 7px;
         transition: 0.2s;
@@ -131,56 +122,54 @@ nav ul li select {
         width: 100%;
     }
 
+    nav ul li {
+        width: 100%;
+    }
+
     a {
         width: 165px;
     }
 
 }
 
-#Services {
-    height: 100vh;
-    background-color: rgb(218, 193, 95);
+/*///////////////////about-us*/
+.about-us {
+    background-color: rgb(36, 36, 36);
 }
 
-.Options {
-    display: inline-block;
+.about-us h2 {
+    color: rgb(175, 175, 16);
+    text-align: start;
+    font-size: 50px;
+}
+
+.about-us p {
+    color: lightyellow;
+}
+
+/*/////////////////////Socials/////////////////*/
+.socials {
+    background-color: darkgray;
+}
+
+.socials .soc {
     width: 100%;
-}
-
-.Options ul {
-    position: relative;
-    list-style-type: none;
-    width: 100%;
-    display: inline-block;
-    justify-self: center;
-}
-
-.Options ul li {
     display: flex;
-    justify-content: center;
 }
 
-.Options select {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 7.5px;
-    font-size: 15px;
-    width: 300px;
-    border-radius: 7px;
-    background-color: gray;
-    outline: none;
-    margin: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.socials h4 {
+    padding-left: 40px;
+    font-size: 25px;
 }
 
-select option {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#cont {
+    position: absolute;
+    height: 30px;
+    left: 0;
 }
 
-.OS {
-    padding-top: 20px;
-    text-align: center;
-    font-size: 75px;
+.social-group {
+    width: 75px;
 }
 
 /*/////////////////////  Contact us  ////////////////////////*/
